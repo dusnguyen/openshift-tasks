@@ -48,5 +48,3 @@ REST Endpoints on OpenShift
   ```
   curl -X GET http://tasks-dev.10.1.2.10.xip.io/demo/load/5 # 5 seconds
   ```
-  
-  Test
