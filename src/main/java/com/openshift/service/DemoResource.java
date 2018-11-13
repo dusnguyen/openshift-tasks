@@ -42,7 +42,7 @@ public class DemoResource {
     public String logInfo(@Context SecurityContext context) {
         Logger log = Logger.getLogger(DemoResource.class.getName());
         log.log(Level.INFO, "INFO: OpenShift 3 is an excellent platform for JEE development.");
-        return new String("{\"response\":\"An informational message was recorded internally by Dustin and Alan.\"}");
+        return new String("{\"response\":\"An informational message was recorded internally by Shay.\"}");
     }
 
     @GET
